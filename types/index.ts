@@ -34,6 +34,6 @@ export type AuthNRequest = {
 export type User = {
   id: string;
   email: string;
-  firstName: string;
-  lastName: string;
+  given_name: string;
+  family_name: string;
 };

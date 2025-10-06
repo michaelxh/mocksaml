@@ -140,15 +140,13 @@ export default function Login() {
                     <label className='label'>
                       <span className='label-text font-bold'>Domain</span>
                     </label>
-                    <select
+                    <input
                       name='domain'
                       id='domain'
                       className='select select-bordered'
                       onChange={handleChange}
-                      value={state.domain}>
-                      <option value='example.com'>@example.com</option>
-                      <option value='example.org'>@example.org</option>
-                    </select>
+                      value={state.domain}
+                    />
                   </div>
                   <div className='form-control col-span-2'>
                     <label className='label'>
